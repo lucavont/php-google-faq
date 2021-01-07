@@ -1,0 +1,122 @@
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #5F6368;
+}
+
+
+/* ///////////////// */
+
+header {
+    height: 90px;
+    display: flex;
+    flex-flow: column nowrap;
+    color: #5F6368;
+    border-bottom: .5px solid #adadad;
+}
+
+.header-top {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top h3 {
+    font-size: 1.3rem;
+}
+
+.miologo a img {
+    width: 80px;
+    height: 25px;
+    margin-left: 20px;
+    margin-right: 5px;
+    display: flex;
+}
+
+.header-top div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.propic {
+    border-radius: 50%;
+    height: 30px;
+    padding: 0 15px;
+}
+
+
+/* /////////////////// */
+
+.navbar {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 20px;
+    font-weight: 600;
+}
+
+.navbar ul li:last-child {
+    border-bottom: 3px solid #3367D9;
+    color: #3367D9;
+    padding-bottom: 10px;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.wrapper>p a {
+    color: blue;
+}
+
+.title {
+    margin: 40px 0;
+}
+
+footer {
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link ul li {
+    display: inline-block;
+    font-size: .7rem;
+}
+
+.lang {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang img {
+    margin-right: 10px;
+}
+
+.lang select {
+    width: 150px;
+}
